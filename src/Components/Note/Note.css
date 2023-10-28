@@ -1,0 +1,38 @@
+.note{
+    padding: 25px;
+    height: 280px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.note_text{
+    flex:1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.88rem;
+    outline: none;
+    border: none;
+}
+
+.note-last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.del-icon{
+    width: 30px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 350ms;
+}
+
+.note:hover .note-last img{
+    opacity: 1;
+}
